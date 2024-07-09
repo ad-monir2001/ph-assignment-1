@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+
+/* ! reset default style of browser */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ! style rule for navigation section */
+
+nav {
+  max-width: 1440px;
+  margin: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .owner-name {
+  color: #0d1321;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav a {
+  display: inline-flex;
+  padding: 17px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  text-decoration: none;
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* ! style rule for banner section */
+
+#banner {
+  background: url('assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  max-width: 998px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.banner-content h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px; /* 141.667% */
+}
+
+.banner-content p {
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.banner-content a {
+  display: flex;
+  padding: 21px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #0d1321;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
