@@ -203,7 +203,6 @@ nav a {
   display: flex;
   align-items: flex-start;
   gap: 32px;
-  
 }
 
 .vision {
@@ -214,4 +213,47 @@ nav a {
   align-self: stretch;
   border-radius: 16px;
   background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* ! style rule for inspiration section */
+
+#inspiration {
+  display: flex;
+  margin: 2rem 10%;
+  flex-direction: column;
+  gap: 48px;
+}
+
+#inspiration h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#inspiration p {
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 16px;
+  font-style: normal;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.youtube-player {
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+iframe {
+  width: 100%;
+  height: 580px;
+  border-radius: 16px;
+  background: lightgray 0px -5.621px / 100% 110.681% no-repeat;
 }
