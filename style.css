@@ -118,7 +118,7 @@ nav a {
   margin-bottom: 48px;
 }
 
-.purpose-heading h1 {
+.common-heading {
   color: #0d1321;
   text-align: center;
   font-family: 'Azeret Mono';
@@ -128,7 +128,7 @@ nav a {
   line-height: normal;
 }
 
-.purpose-heading p {
+.common-description {
   color: #0d1321;
   text-align: center;
   font-family: 'Azeret Mono';
@@ -137,6 +137,7 @@ nav a {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   margin-top: 24px;
+  opacity: 0.7;
 }
 
 .purpose-container {
@@ -224,27 +225,6 @@ nav a {
   gap: 48px;
 }
 
-#inspiration h1 {
-  color: #0d1321;
-  text-align: center;
-  font-family: 'Azeret Mono';
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-
-#inspiration p {
-  color: #0d1321;
-  text-align: center;
-  font-family: 'Azeret Mono';
-  font-size: 16px;
-  font-style: normal;
-  opacity: 0.7;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-}
-
 .youtube-player {
   padding: 2rem;
   border-radius: 16px;
@@ -256,4 +236,192 @@ iframe {
   height: 580px;
   border-radius: 16px;
   background: lightgray 0px -5.621px / 100% 110.681% no-repeat;
+}
+
+/* ! style rule for current target section */
+
+#current-target {
+  margin: 2rem 10%;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+}
+
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.card-title {
+  color: #0d1321;
+  font-family: 'Azeret Mono';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+
+.card-description {
+  color: #0d1321;
+  font-family: 'Azeret Mono';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
+
+.card-link {
+  color: #0d1321;
+  font-family: 'Azeret Mono';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* ! style rule for next target section */
+
+#next-target {
+  margin: 2rem 10%;
+}
+
+.next-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 2rem;
+}
+
+.next-card {
+  display: flex;
+  padding: 40px;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+
+/* ! style rule for support section */
+
+#support {
+  margin: 3rem 10%;
+  display: flex;
+  padding: 64px 48px;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url('assets/handshake.jpg') lightgray 50% / cover no-repeat;
+}
+
+#support h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+}
+
+#support p {
+  color: #fff;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 606px;
+  margin: 0 auto;
+}
+
+.drop-openion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#support input {
+  width: 548px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+
+.support-btn {
+  width: 120px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background: #fff;
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+/* ! style rule for footer section */
+
+footer {
+  display: flex;
+  padding: 2rem 10%;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+#footer h2 {
+  color: #0d1321;
+  text-align: center;
+  font-family: 'Azeret Mono';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
