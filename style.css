@@ -222,11 +222,11 @@ nav a {
   display: flex;
   margin: 2rem 10%;
   flex-direction: column;
-  gap: 48px;
 }
 
 .youtube-player {
   padding: 2rem;
+  margin-top: 2.5rem;
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.2);
 }
@@ -241,7 +241,7 @@ iframe {
 /* ! style rule for current target section */
 
 #current-target {
-  margin: 2rem 10%;
+  margin: 4rem 10%;
 }
 
 .card-container {
@@ -249,6 +249,7 @@ iframe {
   align-items: center;
   justify-content: space-between;
   margin-top: 3rem;
+  gap: 2rem;
 }
 
 .card {
@@ -327,6 +328,9 @@ iframe {
   background: #fff;
 }
 
+.next-card p {
+  margin-bottom: 1rem;
+}
 /* ! style rule for support section */
 
 #support {
